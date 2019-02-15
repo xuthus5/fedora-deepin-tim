@@ -3,11 +3,6 @@
 # Time: 2019.2.11
 # Function: 该脚本用于Fedora上一键安装TIM，测试于 Fedora29-GNOME
 
-# 安装相关依赖环境
-Dependency(){
-	sudo dnf install -y wine
-}
-
 #配置 wine 的 tim 运行环境
 Config(){
 	# libudis86.so
@@ -30,6 +25,5 @@ Run(){
 	$HOME/.local/share/run/tim.sh
 }
 
-Dependency
 Config
 Run

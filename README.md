@@ -35,3 +35,5 @@ cd fedora-deepin-tim
 ```
 ./uninstall.sh
 ```
+
+方案参考：bilibili @[望深邃星空丶](https://space.bilibili.com/23259667)
